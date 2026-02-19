@@ -2,10 +2,16 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <main style={{ padding: '2rem' }}>
+    <main style={{ 
+      padding: '2rem',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      textAlign: 'center'
+    }}>
       <h1>Contact Us</h1>
       <p>If you have any questions, feedback, or suggestions, please reach out to us!</p>
-      <form style={{ maxWidth: 400 }}>
+      <form style={{ maxWidth: 400, width: '100%' }}>
         <div style={{ marginBottom: '1rem' }}>
           <label htmlFor="name">Name:</label><br />
           <input type="text" id="name" name="name" style={{ width: '100%' }} />
