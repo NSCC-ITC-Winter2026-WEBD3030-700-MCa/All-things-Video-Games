@@ -1,4 +1,6 @@
+
 import React from 'react';
+import Link from '@docusaurus/Link';
 
 export default function Contact() {
   return (

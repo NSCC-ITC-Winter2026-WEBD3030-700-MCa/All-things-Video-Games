@@ -3,6 +3,7 @@ title: About Us
 description: Learn more about All Things Video Games.
 ---
 
+# [← Back to Home](/)
 # About Us
 
 Welcome to **All Things Video Games**.

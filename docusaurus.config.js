@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'All Things Video Games',
   tagline: 'An online encyclopedia of video games',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/gaminglogo.webp',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -79,7 +79,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/gaminglogo.webp',
       colorMode: {
         respectPrefersColorScheme: true,
       },
@@ -87,7 +87,7 @@ const config = {
         title: 'All things Video Games',
         logo: {
           alt: 'All things Video Games Logo',
-          src: 'img/logo.svg',
+          src: 'img/gaminglogo.webp',
         },
         items: [
           {to: '/', label: 'Home', position: 'left'},
@@ -96,14 +96,14 @@ const config = {
             label: 'Video Games',
             position: 'left',
             items: [
-              {to: '/docs/action-games', label: 'Action'},
-              {to: '/docs/adventure-games', label: 'Adventure'},
-              {to: '/docs/rpg-games', label: 'RPG'},
-              {to: '/docs/strategy-games', label: 'Strategy'},
-              {to: '/docs/sports-games', label: 'Sports'},
+              {to: '/docs/genres/action', label: 'Action'},
+              {to: '/docs/genres/adventure', label: 'Adventure'},
+              {to: '/docs/genres/rpg', label: 'RPG'},
+              {to: '/docs/genres/strategy', label: 'Strategy'},
+              {to: '/docs/genres/sports', label: 'Sports'},
             ],
           },
-          {to: '/docs/reviews', label: 'Reviews', position: 'left'},
+          {to: '/reviews', label: 'Reviews', position: 'left'},
           {to: '/about', label: 'About Us', position: 'left'},
           {to: '/contact', label: 'Contact Us', position: 'left'},
           {

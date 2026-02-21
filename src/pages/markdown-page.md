@@ -1,3 +1,4 @@
+# [← Back to Home](/)
 ---
 title: Markdown page example
 ---
