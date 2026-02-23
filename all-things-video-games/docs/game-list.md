@@ -7,6 +7,8 @@ title: Game Collection
 
 Use this template to add new games.
 
+Looking for streamers and YouTubers? [Discover popular content creators](../../docs/content-creators).
+
 ## Game Title
 
 Short description.

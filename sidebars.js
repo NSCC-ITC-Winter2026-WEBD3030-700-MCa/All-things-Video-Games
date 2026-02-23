@@ -22,6 +22,7 @@ const sidebars = {
   
   tutorialSidebar: [
     'intro',
+    'content-creators',
     {
       type: 'category',
       label: 'Home',

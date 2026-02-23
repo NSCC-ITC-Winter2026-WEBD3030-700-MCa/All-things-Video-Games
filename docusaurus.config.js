@@ -96,6 +96,7 @@ const config = {
             label: 'Video Games',
             position: 'left',
             items: [
+              {to: '/docs/content-creators', label: 'Content Creators'},
               {to: '/docs/genres/action', label: 'Action'},
               {to: '/docs/genres/adventure', label: 'Adventure'},
               {to: '/docs/genres/rpg', label: 'RPG'},
