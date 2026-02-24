@@ -25,7 +25,10 @@ const sidebars = {
     {
       type: "category",
       label: "Home",
-      items: ["tutorial-basics/create-a-document"],
+      items: [
+        "tutorial-basics/create-a-document",
+        "history-of-video-games",
+      ],
     },
   ],
 };
