@@ -11,6 +11,9 @@ export default function Contact() {
       alignItems: 'center',
       textAlign: 'center'
     }}>
+     <div style={{ marginBottom: '1rem' }}>
+        <Link to="/">&larr; Back to Home</Link>
+     </div>
       <h1>Contact Us</h1>
       <p>If you have any questions, feedback, or suggestions, please reach out to us!</p>
       <form style={{ maxWidth: 400, width: '100%' }}>
