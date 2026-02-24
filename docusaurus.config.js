@@ -103,6 +103,7 @@ const config = {
               {to: '/docs/genres/sports', label: 'Sports'},
             ],
           },
+          {to: '/community-poll', label: 'Community Poll', position: 'left'},
           {to: '/reviews', label: 'Reviews', position: 'left'},
           {to: '/about', label: 'About Us', position: 'left'},
           {to: '/contact', label: 'Contact Us', position: 'left'},
