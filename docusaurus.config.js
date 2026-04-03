@@ -52,22 +52,6 @@ const config = {
           editUrl:
             'https://github.com/NSCC-ITC-Winter2026-WEBD3030-700-MCa/All-things-Video-Games/tree/main/all-things-video-games',
         },
-
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/NSCC-ITC-Winter2026-WEBD3030-700-MCa/All-things-Video-Games/tree/main/all-things-video-games',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
