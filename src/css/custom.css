@@ -27,6 +27,29 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-color-background: #0b1220;
+  --ifm-color-emphasis-0: #07101a;
+  --ifm-color-emphasis-1: #0b1220;
+  --ifm-color-emphasis-2: #111827;
+  --ifm-color-emphasis-3: #9aa4b2;
+  --ifm-color-white: #ffffff;
+  --ifm-color-gray-100: #1f2937;
+  --ifm-color-gray-200: #374151;
+  --ifm-color-gray-300: #4b5563;
+  --ifm-color-text: #e6eef6;
+}
+
+[data-theme="dark"] .backToTopButton {
+  border-color: rgba(255,255,255,0.08);
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-white);
+}
+
+[data-theme="dark"] pre,
+[data-theme="dark"] code {
+  background-color: #07101a;
+  color: var(--ifm-color-text);
 }
 
 .backToTopButton {

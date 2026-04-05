@@ -82,6 +82,8 @@ const config = {
       image: 'img/gaminglogo.webp',
       colorMode: {
         respectPrefersColorScheme: true,
+        defaultMode: 'light',
+        disableSwitch: false,
       },
       navbar: {
         title: 'All things Video Games',
