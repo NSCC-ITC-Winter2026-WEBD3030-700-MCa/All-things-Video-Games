@@ -4,7 +4,21 @@
  * work well for content-centric websites.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap');
+
 /* You can override the default Infima variables here. */
+:root {
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --ifm-heading-font-family: 'Poppins', var(--ifm-font-family-base);
+  --ifm-global-radius: 0.5rem;
+  --section-spacing: 2rem;
+  --section-spacing-desktop: 3rem;
+  --ifm-line-height-base: 1.6;
+  --ifm-font-size-base: 16px;
+  --ifm-link-color: var(--ifm-color-primary);
+  --ifm-link-hover-color: var(--ifm-color-primary-dark);
+  --ifm-link-decoration: none;
+  --ifm-link-hover-decoration: underline;
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -27,6 +41,62 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-link-color: var(--ifm-color-primary-light);
+  --ifm-link-hover-color: var(--ifm-color-primary-lightest);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--ifm-color-primary) var(--ifm-background-color);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ifm-background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--ifm-color-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+/* Improved Link Styling */
+a:hover {
+  text-decoration: var(--ifm-link-hover-decoration);
+}
+
+a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* MDX Node Styling for Cards */
+.theme-doc-markdown h1:first-child {
+  margin-top: 0;
+  padding-top: var(--section-spacing);
+}
+
+.markdown > h2 {
+  margin-top: var(--section-spacing);
+  margin-bottom: 1rem;
+}
+
+.markdown > h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .backToTopButton {
