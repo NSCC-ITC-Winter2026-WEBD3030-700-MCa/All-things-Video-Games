@@ -83,6 +83,18 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true,
       },
+      color: {
+        primaryColor: '#8B5CF6',
+        primaryColorDark: '#7C3AED',
+        primaryColorLight: '#A78BFA',
+        accentColor: '#06B6D4',
+        accentColorDark: '#0891B2',
+        accentColorLight: '#67E8F9',
+        footerColor: {
+          light: '#F3F4F6',
+          dark: '#1F2937',
+        },
+      },
       navbar: {
         title: 'All things Video Games',
         logo: {
