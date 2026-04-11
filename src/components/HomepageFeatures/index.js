@@ -29,7 +29,7 @@ const FeatureList = [
     description: (
       <>
         All Things Video Games is a teamwork-based project where contributions
-        are welcome by anyone. To get started contributing, head over to our <a href="https://github.com/NSCC-ITC-Winter2026-WEBD3030-700-MCa/All-things-Video-Games" target="_blank">GitHub</a>.
+        are welcome by anyone. To get started contributing, head over to our <a href="https://github.com/NSCC-ITC-Winter2026-WEBD3030-700-MCa/All-things-Video-Games" target="_blank" rel="noopener noreferrer">GitHub</a>.
       </>
     ),
   },
@@ -38,12 +38,12 @@ const FeatureList = [
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md padding-top--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+      <div className={styles.featureCard}>
+        <div className={styles.iconWrapper}>
+          <Svg className={styles.featureSvg} role="img" />
+        </div>
+        <Heading as="h3" className={styles.featureTitle}>{title}</Heading>
+        <p className={styles.featureDescription}>{description}</p>
       </div>
     </div>
   );
