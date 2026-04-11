@@ -76,3 +76,21 @@ Nothing
 
 Instructions Easy Or Not?:  
 Yes
+
+#2 
+
+Feedback Entry
+Name:  
+[Your Name Here]
+
+Repo / Team:  
+[Your Repo/Team Here]
+
+What You Like:  
+Clean navigation bar and organized layout make it easy to browse through content. The clear section headers help users understand the site structure at a glance.
+
+What You Would Improve:  
+The color palette could be more vibrant and gaming-focused with darker backgrounds and neon accent colors to match typical gaming aesthetics. Adding more visual elements like icons for different game genres and subtle hover animations on buttons would enhance the visual appeal. Consider adding a hero image or banner to make the homepage more engaging.
+
+Instructions Easy Or Not?:  
+Yes
