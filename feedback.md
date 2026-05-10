@@ -76,3 +76,23 @@ Nothing
 
 Instructions Easy Or Not?:  
 Yes
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+#2
+
+Feedback Entry
+Name:  
+Jordan
+
+Repo / Team:  
+All Things Video Games
+
+What You Like:  
+The site has a clear theme and the game genres are a good starting point for exploring content.
+
+What You Would Improve:  
+Improve navigation by organizing games by genre or platform, add more game reviews, include screenshots or trailers, and make the homepage more visually engaging.
+
+Instructions Easy Or Not?:  
+Yes
